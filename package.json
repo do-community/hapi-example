@@ -1,0 +1,32 @@
+{
+  "name": "hapi-example",
+  "version": "0.1.0",
+  "description": "API Example with Hapi",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskolce/hapi-example.git"
+  },
+  "author": "James Kolce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameskolce/hapi-example/issues"
+  },
+  "homepage": "https://github.com/jameskolce/hapi-example#readme",
+  "dependencies": {
+    "boom": "^3.1.2",
+    "dotenv": "^2.0.0",
+    "hapi": "^13.3.0",
+    "joi": "^8.0.5",
+    "mongojs": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
